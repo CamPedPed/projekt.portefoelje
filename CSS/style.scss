@@ -1,0 +1,14 @@
+@use 'partial';
+
+
+body{
+    background-color: partial.$bg-color;
+}
+
+
+
+// Mobilversionen
+
+@media (max-width: 768px) {
+    
+}

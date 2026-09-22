@@ -1,0 +1,27 @@
+$bg-color: #204C43;
+$links: #FAA50A;
+
+$h1-font: ;
+$h2-font: ;
+$h3-font: ;
+$p-font: ;
+$link-font: ;
+$cta-font: ;
+
+
+@mixins {
+    @mixin flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@mixin text-style($color, $size, $weight: bold, $line-height: 1.5, $font-family: 'navn på fonten') {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line-height;
+    font-family: $font-family;
+}
