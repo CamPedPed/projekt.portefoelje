@@ -5,7 +5,17 @@ body{
     background-color: partial.$bg-color;
 }
 
+a{
+    @include partial.a;
+}
 
+
+
+//Footer
+
+footer{
+    background-color: partial.$text-bg;
+}
 
 // Mobilversionen
 

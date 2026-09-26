@@ -10,29 +10,48 @@
 
 <header>
     <a href="index.html"><img src="Billeder/Logo.png" alt="Logo" id="logo"></a>
+    <button id="darkModeButton">Skift til kontrastoptimeret</button> 
     <H1>Gå på opdagelse i porteføljen</H1>
-    <p>lorem ipsum dolores</p>
-    <button id="darkModeButton">Skift til kontrastoptimeret</button>
+    <nav>
+        <ul>
+            <a href="#">Projekter</a>
+            <a href="#">Min profil</a>
+            <a href="#">Baggrund</a>
+        </ul>
+    </nav>
+    <p>Det ligger i forbindelsen</p>
+    <p>"Det gode design, er bindeleddet mellem afsender og modtager."</p>
+
 </header>
 
 <body>
 
     <main>
-        <div><h2>Tidligere projekter og real-life cases</h2></div>
+
+    <section>
+        <h2>Projekter</h2>
+        <div class="filters" aria-label="Filter projects">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter="HTML">HTML</button>
+            <button type="button" data-filter="CSS">CSS</button>
+            <button type="button" data-filter="SCSS">SCSS</button>
+            <button type="button" data-filter="JS">JS</button>
+        </div>
+        <div id="project-gallery"></div>
+    </section>
 
     </main>
 
-
-
     <footer>
-        <h3>Kontakt</h3>
-        <p>Email: chpedersen25@gmail.com</p>
-        <p>Telefon: 24 97 67 20</p>
-        <a href="https://www.linkedin.com/in/christian-pedersen-0b9a1b1b3/" target="_blank">LinkedIn</a>
-    </footer>
-    
+        <div>
+            <h3>KONTAKT</h3>
+            <p>Email:<address>chpedersen25@gmail.com</address></p>
+            <p>Telefon: 24 97 67 20</p>
+            <a href="https://www.linkedin.com/in/christian-pedersen-0b9a1b1b3/">LinkedIn</a>
+        </div>
 
+    </footer>
 
 </body>
-
+    
 </html>

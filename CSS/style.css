@@ -1,3 +1,13 @@
+@mixins {}
 body {
+  background-color: #262739;
+}
+
+a {
+  color: #FAA50A;
+  text-decoration: none;
+}
+
+footer {
   background-color: #204C43;
 }/*# sourceMappingURL=style.css.map */
