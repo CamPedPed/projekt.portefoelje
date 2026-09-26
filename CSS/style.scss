@@ -1,12 +1,27 @@
 @use 'partial';
 
+header p{
+    color: partial.$p-color;
+}
 
 body{
     background-color: partial.$bg-color;
 }
 
-a{
-    @include partial.a;
+h1{
+    color: partial.$h1-color;
+}
+
+h2{
+    color: partial.$h2-color;
+}
+
+h3{
+    color: partial.$h3-color;
+}
+
+p{
+    color: partial.$p-color;
 }
 
 
@@ -14,8 +29,10 @@ a{
 //Footer
 
 footer{
-    background-color: partial.$text-bg;
+    background-color: partial.$text-bg-color;
 }
+
+
 
 // Mobilversionen
 

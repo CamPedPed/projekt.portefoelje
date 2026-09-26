@@ -1,11 +1,25 @@
-@mixins {}
+header p {
+  color: #fff;
+}
+
 body {
   background-color: #262739;
 }
 
-a {
+h1 {
   color: #FAA50A;
-  text-decoration: none;
+}
+
+h2 {
+  color: #FDE1BE;
+}
+
+h3 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
 }
 
 footer {
