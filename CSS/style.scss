@@ -10,18 +10,24 @@ body{
 
 h1{
     color: partial.$h1-color;
+    font-family: 'Bitcount', sans-serif;
+    font-weight: 400;
 }
 
 h2{
     color: partial.$h2-color;
+    font-family: 'Cutive Mono', sans-serif;
 }
 
 h3{
     color: partial.$h3-color;
+    font-family: 'Bitcount', sans-serif;
+    font-weight: 400;
 }
 
 p{
     color: partial.$p-color;
+    font-family: 'Slabo 13px', serif;
 }
 
 

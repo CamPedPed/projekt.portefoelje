@@ -8,18 +8,24 @@ body {
 
 h1 {
   color: #FAA50A;
+  font-family: "Bitcount", sans-serif;
+  font-weight: 400;
 }
 
 h2 {
   color: #FDE1BE;
+  font-family: "Cutive Mono", sans-serif;
 }
 
 h3 {
   color: #fff;
+  font-family: "Bitcount", sans-serif;
+  font-weight: 400;
 }
 
 p {
   color: #fff;
+  font-family: "Slabo 13px", serif;
 }
 
 footer {
