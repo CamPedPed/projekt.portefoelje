@@ -28,6 +28,15 @@ p {
   font-family: "Slabo 13px", serif;
 }
 
+header {
+  background-color: #204C43;
+}
+
+#logo {
+  max-width: 16rem;
+  padding: 2rem;
+}
+
 #project-gallery {
   display: flex;
   justify-content: space-between;
