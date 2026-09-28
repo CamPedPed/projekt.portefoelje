@@ -28,6 +28,12 @@ p {
   font-family: "Slabo 13px", serif;
 }
 
+#project-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+
 footer {
   background-color: #204C43;
 }/*# sourceMappingURL=style.css.map */
