@@ -8,8 +8,10 @@ body {
 
 h1 {
   color: #FAA50A;
+  display: flex;
   font-family: "Bitcount", sans-serif;
   font-weight: 400;
+  justify-self: center;
 }
 
 h2 {
@@ -37,6 +39,11 @@ header {
   padding: 2rem;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
 #project-gallery {
   display: flex;
   justify-content: space-between;
@@ -45,4 +52,7 @@ header {
 
 footer {
   background-color: #204C43;
+  color: #FAA50A;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

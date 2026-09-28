@@ -10,8 +10,10 @@ body{
 
 h1{
     color: partial.$h1-color;
+    display: flex;
     font-family: 'Bitcount', sans-serif;
     font-weight: 400;
+    justify-self: center;
 }
 
 h2{
@@ -42,6 +44,13 @@ header{
 }
 
 
+// Hero
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+
 // project-gallery
 
 #project-gallery{
@@ -56,6 +65,10 @@ header{
 
 footer{
     background-color: partial.$text-bg-color;
+    color: partial.$link-color;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
