@@ -38,7 +38,7 @@ header{
     background-color: partial.$text-bg-color;
 }
 
-#logo{
+.logo{
     max-width: 16rem;
     padding: 2rem;
 }
@@ -53,10 +53,10 @@ header{
 
 // project-gallery
 
-#project-gallery{
+.project-gallery{
     display: flex;
-    justify-content: space-between;
-    margin: 0 2rem;
+    justify-content: space-around;
+
 }
 
 

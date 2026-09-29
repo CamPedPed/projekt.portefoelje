@@ -34,7 +34,7 @@ header {
   background-color: #204C43;
 }
 
-#logo {
+.logo {
   max-width: 16rem;
   padding: 2rem;
 }
@@ -44,10 +44,9 @@ header {
   justify-content: center;
 }
 
-#project-gallery {
+.project-gallery {
   display: flex;
-  justify-content: space-between;
-  margin: 0 2rem;
+  justify-content: space-around;
 }
 
 footer {
