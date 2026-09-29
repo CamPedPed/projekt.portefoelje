@@ -1,3 +1,66 @@
+// Header og footer
+class Header {
+    constructor(logo, navItems) {
+        this.logo = logo;
+        this.navItems = navItems;
+    }
+
+    render() {
+        const header = document.createElement("header");
+
+        header.innerHTML = `
+            <a href="index.html">
+                <img class="logo" src="${this.logo}" alt="logo">
+                </a>
+                
+                <nav>
+                    ${this.navItems
+                    .map(item => `
+                        <a href="${item.url}">${item.text}</a>
+                    `)
+                    .join("")}
+            </nav>
+        `;
+
+        return header;
+    }
+}
+
+class Footer {
+    constructor(text) {
+        this.text = text;
+    }
+    render() {
+        const footer = document.createElement("footer");
+
+        footer.textContent = this.text;
+
+        return footer;
+    }
+}
+
+// Oprettelse af header og footer
+const header = new Header("img/logoc.png", [
+    { text: "Forside", url: "index.html" },
+    { text: "Projekter", url: "projekter.html" },
+    { text: "Om mig", url: "om.html" },
+]);
+
+const footer = new Footer("Kontakt");
+
+// Indsætning i HTML
+
+document
+    .getElementById("site-header")
+    .appendChild(header.render());
+
+document
+    .getElementById("site-footer")
+    .appendChild(footer.render());
+
+
+
+
 class ProjectGallery {
   // Encapsulation: internal data and DOM reference are private
   #projects = [];
