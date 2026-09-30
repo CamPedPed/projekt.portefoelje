@@ -7,7 +7,7 @@ import { PortfolioPage } from "./components/PortfolioPage.js";
 import { profileData, } from "./data/data.js";
 
 const header = new Header();
-const footer = new Footer():
+const footer = new Footer();
 
 document.querySelector("#header").innerHTML = header.render();
 document.querySelector("#footer").innerHTML = footer.render();
