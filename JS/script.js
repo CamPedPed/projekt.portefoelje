@@ -68,19 +68,19 @@ const footer = new Footer("SKAB FORBINDELSE", [
     { 
         text: "E-mail",
         url: "chpedersen25@gmail.com",
-        icon: "#"
+        icon: "fa-solid fa-envelope"
     },
 
     { 
         text: "Tlf.",
         url: "24 97 67 20",
-        icon: "#"
+        icon: "fa-solid fa-phone"
     },
 
     { 
         text: "LinkedIn",
-        url: "https://www.linkedin.com/in/christian-pedersen-0b9a1b1b3/",
-        icon: "#"
+        url: "https://dk.linkedin.com/in/camilla-h%C3%B8hrmann-pedersen-758b7320a",
+        icon: "fa-brands fa-linkedin-in"
     }
 ]);
 
@@ -96,6 +96,9 @@ document
 
 
 
+// FORSIDEN
+
+// PROJEKT-SIDEN
 
 class ProjectGallery {
   // Encapsulation: internal data and DOM reference are private
