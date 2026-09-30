@@ -31,9 +31,8 @@ export class ProjektGalleri {
 
   #render(projects = this.#projects) {
     this.#container.innerHTML = projects
-      .map(
-        project => {
-          const kort = new ProjektKort(projects);
+      .map(project => {
+          const kort = new ProjektKort(project);
           return kort.render();
         }
       )
