@@ -49,9 +49,27 @@ header {
   justify-content: space-around;
 }
 
-footer {
+#project-gallery {
   background-color: #204C43;
-  color: #FAA50A;
+}
+
+footer {
+  padding: 2rem;
+}
+
+.footer-links {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+
+.footer-links i {
+  width: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -56,19 +56,33 @@ header{
 .project-gallery{
     display: flex;
     justify-content: space-around;
-
 }
 
-
+#project-gallery{
+    background-color: partial.$text-bg-color;
+}
 
 //Footer
 
-footer{
-    background-color: partial.$text-bg-color;
-    color: partial.$link-color;
+footer {
+    padding: 2rem;
+}
+
+.footer-links {
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    text-decoration: none;
+}
+
+.footer-links i {
+    width: 20px;
 }
 
 

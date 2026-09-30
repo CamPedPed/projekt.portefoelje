@@ -27,26 +27,62 @@ class Header {
 }
 
 class Footer {
-    constructor(text) {
-        this.text = text;
+    constructor(h3, links) {
+        this.h3 = h3;
+        this.links = links;
     }
+
     render() {
         const footer = document.createElement("footer");
 
-        footer.textContent = this.text;
+        footer.innerHTML = `
+        <h3>${this.h3}</h3>
+
+        <div class="footer-links">
+            ${this.links
+                .map(item => `
+                    <a href="${item.url}">
+                        <i class="${item.icon}"></i>
+                        <span>${item.text}</span>
+                        </a>
+                    `)
+
+                    .join("")}
+
+                    </div>
+        `;
+
 
         return footer;
     }
 }
 
 // Oprettelse af header og footer
-const header = new Header("img/logoc.png", [
+const header = new Header("img/logobw.png", [
     { text: "Forside", url: "index.html" },
     { text: "Projekter", url: "projekter.html" },
     { text: "Om mig", url: "om.html" },
 ]);
 
-const footer = new Footer("Kontakt");
+const footer = new Footer("SKAB FORBINDELSE", [
+    { 
+        text: "E-mail",
+        url: "chpedersen25@gmail.com",
+        icon: "#"
+    },
+
+    { 
+        text: "Tlf.",
+        url: "24 97 67 20",
+        icon: "#"
+    },
+
+    { 
+        text: "LinkedIn",
+        url: "https://www.linkedin.com/in/christian-pedersen-0b9a1b1b3/",
+        icon: "#"
+    }
+]);
 
 // Indsætning i HTML
 
