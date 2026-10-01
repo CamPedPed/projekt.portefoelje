@@ -157,7 +157,18 @@ nav{
     }
 }
 
+
+
+
 // OM-SIDE
+.intro{
+    background-color: partial.$primary-color;
+    display: flex;
+
+    img{
+        max-width: 38rem;
+    }
+}
 
 // FOOTER
 

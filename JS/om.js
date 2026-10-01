@@ -5,12 +5,14 @@ import { profileData } from "./data/data.js";
 
 const profile = new Profile(
     profileData.name,
-    profileData.title,
-    profileData.introduction
+    profileData.introduction,
+    profileData.link,
+    profileData.img
 );
 
 const portfolio = new PortfolioPage(profile);
 
 portfolio.render();
+
 
 

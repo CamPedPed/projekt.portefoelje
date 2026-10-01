@@ -130,6 +130,14 @@ nav a:hover {
   margin: 2rem;
 }
 
+.intro {
+  background-color: #FAA50A;
+  display: flex;
+}
+.intro img {
+  max-width: 38rem;
+}
+
 footer {
   background-color: #204C43;
   display: flex;

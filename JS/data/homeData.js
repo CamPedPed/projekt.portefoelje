@@ -25,7 +25,7 @@ export const homeData = {
 
     {
         title: "Om mig",
-        text: "Find ud af, hvor jeg ligger på DISC-akserne, bliv klogere på min baggrund og læs mere om de værdier, jeg tager med mig på arbejde",
+        text: "Bliv klogere på min baggrund, min person og læs mere om de værdier, jeg tager med mig på arbejde",
         buttonText: "Læs mere om mig",
         link: "om.html"
     }
