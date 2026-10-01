@@ -1,29 +1,29 @@
 @use 'partial';
 
-header p{
-    color: partial.$color;
-}
 
 body{
     background-color: partial.$bg-color;
 }
 
 h1{
-    color: partial.$h1-color;
+    color: partial.$primary-color;
     display: flex;
     font-family: 'Bitcount', sans-serif;
+    font-size: 68px;
     font-weight: 400;
-    justify-self: center;
+    justify-content: center;
 }
 
 h2{
-    color: partial.$h2-color;
+    color: partial.$secondary-color;
     font-family: 'Cutive Mono', sans-serif;
+    font-size: 56px;
 }
 
 h3{
     color: partial.$h3-color;
     font-family: 'Bitcount', sans-serif;
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -36,6 +36,9 @@ p{
 
 header{
     background-color: partial.$p-bg-color;
+    color: partial.$color;
+    display: flex;
+
 }
 
 .logo{
@@ -43,16 +46,42 @@ header{
     padding: 2rem;
 }
 
-#nav a{
-    color: red;
-}
 
+
+//FORSIDE
 
 // Hero
 .hero{
     display: flex;
+    flex-direction: column;
+
+    .hero-content{
+        background-color: partial.$primary-color;
+        border: solid, 2rem;
+        border-color: partial.$secondary-color;
+        border-radius: 25px;
+        display: flex;
+        padding: 4rem 8rem;
+        
+    }
+
+    p{
+        color: black;
+        font-size: 40px;
+    }
+}
+
+.quote{
+    color: partial.$primary-color;
+    display: flex;
+    font-family: 'Slabo 13px', serif;
+    font-size: 56px;
     justify-content: center;
 }
+
+
+
+
 
 
 // project-gallery
