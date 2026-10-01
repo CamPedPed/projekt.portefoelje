@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+button {
+  background-color: #FDE1BE;
+  color: #204C43;
+}
+
 h1 {
   color: #FAA50A;
   display: flex;
@@ -119,6 +124,13 @@ nav a:hover {
 
 #project-gallery {
   background-color: #204C43;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+#project-gallery img {
+  max-width: 16rem;
+  border-radius: 25px;
+  margin: 2rem;
 }
 
 footer {

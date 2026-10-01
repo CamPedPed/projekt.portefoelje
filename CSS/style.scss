@@ -7,6 +7,11 @@ body{
     margin: 0;
 }
 
+button{
+    background-color: partial.$cta-bg;
+    color: partial.$p-bg-color;
+}
+
 h1{
     color: partial.$primary-color;
     display: flex;
@@ -144,7 +149,17 @@ nav{
 
 #project-gallery{
     background-color: partial.$p-bg-color;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    img{
+        max-width: 16rem;
+        border-radius: 25px;
+        margin: 2rem;
+    }
 }
+
+// OM-SIDE
 
 // FOOTER
 
