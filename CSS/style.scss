@@ -38,7 +38,23 @@ header{
     background-color: partial.$p-bg-color;
     color: partial.$color;
     display: flex;
+}
 
+nav{
+    background-color: red;
+    a{
+        background-color: red;
+        color: partial.$secondary-color;
+        font-family: 'slabo 13px', serif;
+        padding: 3rem, 4rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: partial.$secondary-color;
+        color: partial.$hover;
+
+    }
 }
 
 .logo{

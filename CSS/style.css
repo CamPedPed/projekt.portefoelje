@@ -35,6 +35,21 @@ header {
   display: flex;
 }
 
+nav {
+  background-color: red;
+}
+nav a {
+  background-color: red;
+  color: #FDE1BE;
+  font-family: "slabo 13px", serif;
+  padding: 3rem, 4rem;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #FDE1BE;
+  color: #204C43;
+}
+
 .logo {
   max-width: 16rem;
   padding: 2rem;
