@@ -1,9 +1,19 @@
 $bg-color: #262739;
-$text-bg-color: #204C43;
+$p-bg-color: #204C43;
 $link-color: #FAA50A;
-$hover-color: #204C43;
-$cta-color: #FDE1BE;
+$hover: #204C43;
+$cta-bg: #FDE1BE;
 $h1-color: #FAA50A;
 $h2-color: #FDE1BE;
 $h3-color: #fff;
-$p-color: #fff;
+$color: #fff;
+
+//MIXINS
+
+@mixin infobox($text-bg-color, $p-color) {
+
+}
+
+@mixin button(){
+    
+}
