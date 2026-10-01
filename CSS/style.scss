@@ -40,7 +40,6 @@ p{
 }
 
 // Header
-
 header{
     background-color: partial.$p-bg-color;
     color: partial.$color;
@@ -48,9 +47,7 @@ header{
 }
 
 nav{
-    background-color: red;
     a{
-        background-color: red;
         color: partial.$secondary-color;
         font-family: 'slabo 13px', serif;
         padding: 3rem, 4rem;
@@ -149,6 +146,7 @@ nav{
 
 #project-gallery{
     background-color: partial.$p-bg-color;
+    display: flex;
     margin-left: 4rem;
     margin-right: 4rem;
 

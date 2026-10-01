@@ -42,11 +42,7 @@ header {
   display: flex;
 }
 
-nav {
-  background-color: red;
-}
 nav a {
-  background-color: red;
   color: #FDE1BE;
   font-family: "slabo 13px", serif;
   padding: 3rem, 4rem;
@@ -124,6 +120,7 @@ nav a:hover {
 
 #project-gallery {
   background-color: #204C43;
+  display: flex;
   margin-left: 4rem;
   margin-right: 4rem;
 }
