@@ -78,12 +78,17 @@ nav{
         border-radius: 25px;
         display: flex;
         padding: 4rem 8rem;
+        justify-content: space-around;
         
     }
 
     p{
         color: black;
-        font-size: 40px;
+        font-size: 28px;
+    }
+
+    img{
+        max-width: 16rem;
     }
 }
 

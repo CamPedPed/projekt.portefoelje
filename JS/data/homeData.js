@@ -9,7 +9,7 @@ export const homeData = {
             "Hvis vi er enige i disse udsagn, så klik rundt her på sitet og hør mere om, hvem jeg er, hvad jeg i samarbejde med andre har skabt og overvej kontaktmulighederne i bunden."
         ],
 
-        image: "#"
+        image: "img/profil.png"
     },
 
     quote: {
