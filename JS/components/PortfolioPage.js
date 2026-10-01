@@ -1,6 +1,7 @@
 export class PortfolioPage {
-    constructor(profile) {
+    constructor(profile, title) {
         this.profile = profile;
+        this.title = title;
     }
 
     render() {

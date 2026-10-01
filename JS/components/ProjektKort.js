@@ -16,7 +16,18 @@ export class ProjektKort {
                     src="${this.project.image.src}"
                     alt="${this.project.image.alt}"
                 >
-
+                <img
+                    src="${this.project.image.src}"
+                    alt="${this.project.image.alt}"
+                >
+                <img
+                    src="${this.project.image.src}"
+                    alt="${this.project.image.alt}"
+                >
+                <img
+                    src="${this.project.image.src}"
+                    alt="${this.project.image.alt}"
+                >
                 <a href="${this.project.url}">
                     Gå til hjemmesiden
                 </a>

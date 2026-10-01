@@ -1,6 +1,6 @@
 export const homeData = {
     hero: {
-        title: "Velkommen til Pedersens portefølje",
+        title: "Velkommen til Pedersens portefølje!",
 
         paragraphs: [
             "Brugeroplevelsen ligger i forbindelsen, og designet skal skabe mening. Ellers har brugerdesignet fejlet, ikke brugeren.",
