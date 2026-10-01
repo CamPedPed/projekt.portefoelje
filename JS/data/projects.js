@@ -13,7 +13,7 @@ export const projects = [
     {
         title: "DKE3D / Sassiecat3d",
         image: {
-            src: "#",
+            src: "img/DKE3D Desktop - Forside.png",
             alt: "Designforslag af hjemmesidens forside til DKE3D / Sassiecat3d"
         },
         description: "DKE3D / Sassiecat3d kom med en AI-genereret hjemmeside, der afveg fra deres egne værdier, hvor håndværk og kreativiteten var alfa omega for deres virksomhed, som sælger 3D-printede produkter og 3D-filer. De ønskede derfor en let-redigerbar hjemmeside, som var både responsiv, byggede på deres storytelling og samtidig fremhævede færdige produkter i en webshop. Designet skulle tiltale både fantasyentuisiaster og børn/unge med neudiverse udfordringer, hvor fidgets og fantasiuniverset er et åndehul.",

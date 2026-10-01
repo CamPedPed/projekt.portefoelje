@@ -2,6 +2,7 @@
 import { Header } from "./components/Header.js";
 import { Footer } from "./components/Footer.js";
 
+// HEADER
 const header = new Header("img/logobw.png", [
   {
     text: "Forside",
@@ -19,6 +20,8 @@ const header = new Header("img/logobw.png", [
   }
 
 ]);
+
+// FOOTER
 
 const footer = new Footer("Skab forbindelse", [
   {
@@ -40,9 +43,13 @@ const footer = new Footer("Skab forbindelse", [
   }
 ]);
 
+// MODULES
+
 document
   .getElementById("site-header")
   .appendChild(header.render());
+
+
 
 document
   .getElementById("site-footer")

@@ -10,7 +10,7 @@ export class PortfolioPage {
          
     
         document.querySelector("#title").textContent =
-        this.profile.titleM
+        this.profile.title;
 
         document.querySelector("#content").innerHTML =
         this.profile.render();
