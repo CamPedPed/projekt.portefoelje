@@ -69,6 +69,7 @@ nav{
 //FORSIDE
 
 // Hero
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -83,6 +84,7 @@ nav{
         display: flex;
         padding: 2rem 4rem;
         justify-content: space-around;
+        align-items: center;
         
     }
 
@@ -96,7 +98,6 @@ nav{
     img{
         max-width: 16rem;
         border-radius: 50%;
-        align-items: center;
         margin-left: 4rem;
         margin-right: 4rem;
     }
@@ -117,7 +118,25 @@ nav{
 
 // TEASER-SEKTION
 
+.teaser-container{
+    display: flex;
+    justify-items: space-around;
+    gap: 2rem;
+    margin: 4rem;
+}
 
+.teaser-kort{
+    background-color: partial.$p-bg-color;
+    justify-items: center;
+    padding: 2rem;
+
+    a{
+        background-color: partial.$cta-bg;
+        color: partial.$bg-color;
+        font-family: 'bitcount', sans-serif;
+        font-weight: 400;
+    }
+}
 
 
 
@@ -130,6 +149,7 @@ nav{
 // FOOTER
 
 footer {
+    background-color: partial.$p-bg-color;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -71,6 +71,7 @@ nav a:hover {
   display: flex;
   padding: 2rem 4rem;
   justify-content: space-around;
+  align-items: center;
 }
 .hero p {
   color: black;
@@ -81,7 +82,6 @@ nav a:hover {
 .hero img {
   max-width: 16rem;
   border-radius: 50%;
-  align-items: center;
   margin-left: 4rem;
   margin-right: 4rem;
 }
@@ -98,11 +98,31 @@ nav a:hover {
   text-align: center;
 }
 
+.teaser-container {
+  display: flex;
+  justify-items: space-around;
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.teaser-kort {
+  background-color: #204C43;
+  justify-items: center;
+  padding: 2rem;
+}
+.teaser-kort a {
+  background-color: #FDE1BE;
+  color: #262739;
+  font-family: "bitcount", sans-serif;
+  font-weight: 400;
+}
+
 #project-gallery {
   background-color: #204C43;
 }
 
 footer {
+  background-color: #204C43;
   display: flex;
   flex-direction: column;
   align-items: center;
