@@ -6,7 +6,7 @@ export class ProjektKort {
     render() {
         return `
             <article class "project-card">
-                <h3>${this.project.title}</h3>
+                <h2>${this.project.title}</h2>
 
                 
 
@@ -28,6 +28,8 @@ export class ProjektKort {
                     src="${this.project.image.src}"
                     alt="${this.project.image.alt}"
                 >
+
+                <p> ${this.project.text}</p>
                 <a href="${this.project.url}">
                     Gå til hjemmesiden
                 </a>

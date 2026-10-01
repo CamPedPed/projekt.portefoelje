@@ -9,7 +9,14 @@ body{
 
 button{
     background-color: partial.$cta-bg;
+    border: none;
+    border-radius: 25px;
     color: partial.$p-bg-color;
+    font-family: 'Bitcount', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 2rem;
+    padding: 0.4rem 2rem;
 }
 
 h1{
@@ -43,11 +50,11 @@ p{
 header{
     background-color: partial.$p-bg-color;
     color: partial.$color;
-    display: flex;
 }
 
 nav{
     a{
+        border-radius: 25px;
         color: partial.$secondary-color;
         font-family: 'slabo 13px', serif;
         padding: 3rem, 4rem;
@@ -143,18 +150,29 @@ nav{
 
 
 // PROJEKTER SIDE
-
 #project-gallery{
     background-color: partial.$p-bg-color;
+    border-radius: 25px;
     display: flex;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    flex-wrap: wrap;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 4rem;
+
+    p{
+        font-size: 24px;
+    }
 
     img{
-        max-width: 16rem;
         border-radius: 25px;
         margin: 2rem;
+        max-width: 16rem;
     }
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
 }
 
 
