@@ -25,13 +25,13 @@ const header = new Header("img/logobw.png", [
 
 const footer = new Footer("Skab forbindelse", [
   {
-    text: "E-mail",
+    text: "E-mail chpedersen25@gmail.com",
     url: "mailto:chpedersen25@gmail.com",
     icon: "fa-solid fa-envelope"
   },
 
   {
-    text: "Tlf.",
+    text: "Tlf. 24 97 67 20",
     url: "tel:+4524976720",
     icon: "fa-solid fa-phone"
   },

@@ -198,12 +198,31 @@ nav{
 
 
 // OM-SIDE
+
 .intro{
     background-color: partial.$primary-color;
     display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 4rem;
+
+    p{
+        font-size: 24px;
+        line-height: 2;
+    }
 
     img{
-        max-width: 38rem;
+        display: flex;
+        max-width: 40rem;
+    }
+
+    a{
+        color: partial.$p-bg-color;
+        background-color: partial.$cta-bg;
+        text-decoration: none;
     }
 }
 
