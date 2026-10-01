@@ -154,10 +154,11 @@ nav{
     background-color: partial.$p-bg-color;
     border-radius: 25px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: 8rem;
     margin-right: 8rem;
-    padding: 4rem;
+    padding-left: 16rem;
+    padding-right: 16rem;
 
     p{
         font-size: 24px;
@@ -165,8 +166,26 @@ nav{
 
     img{
         border-radius: 25px;
+        display: flex;
+        justify-self: center;
         margin: 2rem;
-        max-width: 16rem;
+        max-height: 40rem;
+        max-width: 48rem;
+    }
+
+    p{
+        line-height: 2;
+    }
+
+    a{
+        background-color: partial.$cta-bg;
+        border-radius: 25px;
+        color: partial.$bg-color;
+        display: flex;
+        font-family: 'bitcount', sans-serif;
+        font-weight: 400;
+        justify-content: center;
+        padding: 0.8rem 2rem;
     }
 }
 
@@ -196,12 +215,15 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-}
 
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    a{
+        color: partial.$primary-color;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        padding-bottom: 0.8rem;
+        text-decoration: none;
+    }
 }
 
 // Mobilversionen

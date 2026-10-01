@@ -5,10 +5,8 @@ export class ProjektKort {
 
     render() {
         return `
-            <article class "project-card">
+            <article class="project-card">
                 <h2>${this.project.title}</h2>
-
-                
 
                 <p>${this.project.description}</p>
 
@@ -16,18 +14,15 @@ export class ProjektKort {
                     src="${this.project.image.src}"
                     alt="${this.project.image.alt}"
                 >
-                <img
-                    src="${this.project.image.src}"
-                    alt="${this.project.image.alt}"
-                >
-                <img
-                    src="${this.project.image.src}"
-                    alt="${this.project.image.alt}"
-                >
-                <img
-                    src="${this.project.image.src}"
-                    alt="${this.project.image.alt}"
-                >
+
+                ${(this.project.additionalImages || [])
+                    .map(image => `
+                        <img
+                            src="${image.src}"
+                            alt="${image.alt}"
+                        >
+                    `)
+                    .join("")}
 
                 <p> ${this.project.text}</p>
                 <a href="${this.project.url}">
