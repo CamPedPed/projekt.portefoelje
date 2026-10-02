@@ -27,6 +27,8 @@ h1{
     font-size: 68px;
     font-weight: 400;
     justify-content: center;
+    margin-left: 16rem;
+    margin-right: 16rem;
 }
 
 h2{
@@ -90,6 +92,10 @@ nav{
 //FORSIDE
 
 // Hero
+.forside{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
 
 .hero{
     display: flex;
@@ -112,8 +118,9 @@ nav{
     p{
         color: black;
         font-size: 24px;
-        margin-left: 4rem;
-        margin-right: 4rem;
+        line-height: 2;
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
 
     img{
@@ -130,6 +137,7 @@ nav{
     font-family: 'Slabo 13px', serif;
     font-size: 36px;
     justify-content: center;
+    line-height: 2;
     margin-left: 24rem;
     margin-right: 24rem;
     padding-top: 2rem;
@@ -141,21 +149,40 @@ nav{
 
 .teaser-container{
     display: flex;
-    justify-items: space-around;
     gap: 2rem;
     margin: 4rem;
 }
 
 .teaser-kort{
     background-color: partial.$p-bg-color;
-    justify-items: center;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 8rem;
+
+    p{
+        font-family: 'Slabo 13px', sans-serif;
+        font-size: 24px;
+        line-height: 2;
+    }
 
     a{
         background-color: partial.$cta-bg;
-        color: partial.$bg-color;
+        border-radius: 25px;
+        color: partial.$secondary-p;
         font-family: 'bitcount', sans-serif;
+        font-size: 24px;
         font-weight: 400;
+        margin-top: 2rem;
+        padding: 2rem 4rem;
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        background-color: partial.$link-color;
+        color: partial.$secondary-color;
+
     }
 }
 
@@ -167,8 +194,8 @@ nav{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
     padding-left: 16rem;
     padding-right: 16rem;
 
@@ -192,12 +219,22 @@ nav{
     a{
         background-color: partial.$cta-bg;
         border-radius: 25px;
-        color: partial.$bg-color;
+        color: partial.$secondary-p;
         display: flex;
         font-family: 'bitcount', sans-serif;
+        font-size: 24px;
         font-weight: 400;
         justify-content: center;
-        padding: 0.8rem 2rem;
+        margin-top: 2rem;
+        padding: 2rem 4rem;
+        text-decoration: none;
+
+    }
+
+    a:hover {
+        background-color: partial.$link-color;
+        color: partial.$secondary-color;
+
     }
 }
 
@@ -210,33 +247,53 @@ nav{
 
 
 // OM-SIDE
-.content{
-    background-color: red;
-}
+
 .intro{
     background-color: partial.$primary-color;
+    border: solid, 0.8rem;
+    border-color: partial.$secondary-color;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     margin-left: 8rem;
-    margin-right: 8rem;
+    margin-right: 16rem;
+    margin-bottom: 16rem;
+    margin-top: 8rem;
     padding-left: 8rem;
     padding-right: 8rem;
     padding-bottom: 4rem;
 
     p{
+        color: partial.$secondary-p;
         font-size: 24px;
         line-height: 2;
     }
 
     img{
         display: flex;
+        align-self: center;
         max-width: 40rem;
     }
 
     a{
-        color: partial.$p-bg-color;
         background-color: partial.$cta-bg;
+        border-radius: 25px;
+        color: partial.$secondary-p;
+        display: flex;
+        font-family: 'bitcount', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        justify-content: center;
+        margin-top: 2rem;
+        padding: 2rem 4rem;
         text-decoration: none;
+
+    }
+
+    a:hover {
+        background-color: partial.$link-color;
+        color: partial.$secondary-color;
+
     }
 }
 

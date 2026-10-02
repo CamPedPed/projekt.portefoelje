@@ -24,6 +24,8 @@ h1 {
   font-size: 68px;
   font-weight: 400;
   justify-content: center;
+  margin-left: 16rem;
+  margin-right: 16rem;
 }
 
 h2 {
@@ -75,6 +77,11 @@ nav a:hover {
   padding-top: 4rem;
 }
 
+.forside {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -94,8 +101,9 @@ nav a:hover {
 .hero p {
   color: black;
   font-size: 24px;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  line-height: 2;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 .hero img {
   max-width: 16rem;
@@ -110,6 +118,7 @@ nav a:hover {
   font-family: "Slabo 13px", serif;
   font-size: 36px;
   justify-content: center;
+  line-height: 2;
   margin-left: 24rem;
   margin-right: 24rem;
   padding-top: 2rem;
@@ -118,21 +127,36 @@ nav a:hover {
 
 .teaser-container {
   display: flex;
-  justify-items: space-around;
   gap: 2rem;
   margin: 4rem;
 }
 
 .teaser-kort {
   background-color: #504b19;
-  justify-items: center;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+.teaser-kort p {
+  font-family: "Slabo 13px", sans-serif;
+  font-size: 24px;
+  line-height: 2;
 }
 .teaser-kort a {
   background-color: #FDE1BE;
-  color: #e9b789;
+  border-radius: 25px;
+  color: #000;
   font-family: "bitcount", sans-serif;
+  font-size: 24px;
   font-weight: 400;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+}
+.teaser-kort a:hover {
+  background-color: #FAA50A;
+  color: #FDE1BE;
 }
 
 #project-gallery {
@@ -140,8 +164,8 @@ nav a:hover {
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-left: 16rem;
+  margin-right: 16rem;
   padding-left: 16rem;
   padding-right: 16rem;
 }
@@ -162,12 +186,19 @@ nav a:hover {
 #project-gallery a {
   background-color: #FDE1BE;
   border-radius: 25px;
-  color: #e9b789;
+  color: #000;
   display: flex;
   font-family: "bitcount", sans-serif;
+  font-size: 24px;
   font-weight: 400;
   justify-content: center;
-  padding: 0.8rem 2rem;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  text-decoration: none;
+}
+#project-gallery a:hover {
+  background-color: #FAA50A;
+  color: #FDE1BE;
 }
 
 .filters {
@@ -175,32 +206,47 @@ nav a:hover {
   justify-content: center;
 }
 
-.content {
-  background-color: red;
-}
-
 .intro {
   background-color: #FAA50A;
+  border: solid, 0.8rem;
+  border-color: #FDE1BE;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   margin-left: 8rem;
-  margin-right: 8rem;
+  margin-right: 16rem;
+  margin-bottom: 16rem;
+  margin-top: 8rem;
   padding-left: 8rem;
   padding-right: 8rem;
   padding-bottom: 4rem;
 }
 .intro p {
+  color: #000;
   font-size: 24px;
   line-height: 2;
 }
 .intro img {
   display: flex;
+  align-self: center;
   max-width: 40rem;
 }
 .intro a {
-  color: #504b19;
   background-color: #FDE1BE;
+  border-radius: 25px;
+  color: #000;
+  display: flex;
+  font-family: "bitcount", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
   text-decoration: none;
+}
+.intro a:hover {
+  background-color: #FAA50A;
+  color: #FDE1BE;
 }
 
 footer {
