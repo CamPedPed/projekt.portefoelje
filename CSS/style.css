@@ -8,7 +8,7 @@ button {
   background-color: #FDE1BE;
   border: none;
   border-radius: 25px;
-  color: #504b19;
+  color: #000;
   font-family: "Bitcount", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -47,12 +47,20 @@ p {
 header {
   background-color: #504b19;
   color: #fff;
+  padding-bottom: 2rem;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+  margin-right: 8rem;
+}
 nav a {
   border-radius: 25px;
   color: #FDE1BE;
   font-family: "slabo 13px", serif;
+  font-size: 24px;
   padding: 3rem, 4rem;
   text-decoration: none;
 }
@@ -62,8 +70,9 @@ nav a:hover {
 }
 
 .logo {
-  max-width: 8rem;
-  padding: 2rem;
+  max-width: 16rem;
+  padding-left: 8rem;
+  padding-top: 4rem;
 }
 
 .hero {
@@ -96,7 +105,7 @@ nav a:hover {
 }
 
 .quote {
-  color: #FAA50A;
+  color: #000;
   display: flex;
   font-family: "Slabo 13px", serif;
   font-size: 36px;
@@ -164,6 +173,10 @@ nav a:hover {
 .filters {
   display: flex;
   justify-content: center;
+}
+
+.content {
+  background-color: red;
 }
 
 .intro {
