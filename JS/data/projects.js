@@ -5,6 +5,22 @@ export const projects = [
             src: "img/Forside G&C - Desktop.png",
             alt: "Designforslag til Garn & Crafts hjemmeside forside"
         },
+
+        additionalImages: [
+            {
+                src: "img/g&clogo.png",
+                alt: "Logo"
+            },
+            {
+                src: "img/G&CStyletile.png",
+                alt: "Styletile"
+            },
+            {
+                src: "img/Positioneringskort.jpg",
+                alt: "Positioneringskort"
+            }
+        ],
+
         description: "Garn- og hobbybutikken i Kolding ønskede at få fat i en yngre målgruppe. Samtidig tilbød de et håndarbejdssamarbejde i butikkens lokaler hver 2. torsdag i måneden. Her var oplevelsen dog, at ikke mange tilsluttede sig disse aftener. Dem, der tilsluttede sig det sociale arrangement var den ældre målgruppe. Formålet med opgaven var, at gøre den yngre målgruppe opmærksom på de Garn & Crafts sociale tilbud og opfriske hjemmesiden, så den fremstod mindre rodet og mere farverig til fordel for det yngre segment. Endvidere skulle håndarbejdsdelen fremhæves, da Garn & Craft blev opfattet som en strikkebutik.",
         text: "For Garn & Craft handlede det om, at få en tydelig brandprofil, da konkurrenterne havde dette i form af en særlig farve og via deres tilstedeværelse på sociale medier, hvor deres tone of voice og udtryk havde en sammenhængende struktur på tværs af henholdsvis Facebook, TikTok og Instagram. Derfor gik vi all in på at fokusere på de unge håndarbejdere ved at oprette online begivenheder på en Facebook-gruppe, vi havde oprettet ud fra Garn & Crafts navn - og nye brand. Her planlagde vi Craft Club Meetups, der både kunne henvise til lokalerne i Kolding og eventuelle online knit-alongs. Gruppen skulle fungere som samlingspunkt og bindeled for Garn & Craft og dets kunder. Fokus var desuden på at gøre hjemmesiden indbydende med varme rust- og efterårsfarver, mens et nyt logo blev tegnet digitalt i hånden sammen med de øvrige grafiske elementer. Dette, for at dyrke håndarbejdet ned i selve designet.",
         url: "https://danziiiiim.github.io/",
