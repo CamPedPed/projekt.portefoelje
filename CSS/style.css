@@ -17,8 +17,7 @@ button {
 }
 
 h1 {
-  color: #FAA50A;
-  background-color: #504b19;
+  color: #504b19;
   display: flex;
   font-family: "Bitcount", sans-serif;
   font-size: 68px;
@@ -30,7 +29,7 @@ h1 {
 
 h2 {
   color: #FDE1BE;
-  font-family: "Cutive Mono", sans-serif;
+  font-family: "Slabo 13px", sans-serif;
   font-size: 56px;
 }
 
@@ -43,7 +42,7 @@ h3 {
 
 p {
   color: #fff;
-  font-family: "Slabo 13px", serif;
+  font-family: "cutive", serif;
 }
 
 header {
@@ -100,6 +99,7 @@ nav a:hover {
 }
 .hero p {
   color: black;
+  font-family: "cutive mono", serif;
   font-size: 24px;
   line-height: 2;
   margin-left: 8rem;
@@ -139,7 +139,7 @@ nav a:hover {
   padding: 2rem 8rem;
 }
 .teaser-kort p {
-  font-family: "Slabo 13px", sans-serif;
+  font-family: "cutive mono", serif;
   font-size: 24px;
   line-height: 2;
 }
@@ -171,6 +171,8 @@ nav a:hover {
 }
 #project-gallery p {
   font-size: 24px;
+  font-family: "cutive mono", serif;
+  line-height: 2;
 }
 #project-gallery img {
   border-radius: 25px;
@@ -179,9 +181,6 @@ nav a:hover {
   margin: 2rem;
   max-height: 40rem;
   max-width: 48rem;
-}
-#project-gallery p {
-  line-height: 2;
 }
 #project-gallery a {
   background-color: #FDE1BE;
@@ -223,6 +222,7 @@ nav a:hover {
 }
 .intro p {
   color: #000;
+  font-family: "cutive mono", serif;
   font-size: 24px;
   line-height: 2;
 }
@@ -263,4 +263,35 @@ footer a {
   justify-content: center;
   padding-bottom: 0.8rem;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .forside {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .teaser-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  #project-gallery {
+    margin: 0;
+    padding: 0;
+  }
+  .intro {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -20,8 +20,7 @@ button{
 }
 
 h1{
-    color: partial.$primary-color;
-    background-color: partial.$p-bg-color;
+    color: partial.$p-bg-color;
     display: flex;
     font-family: 'Bitcount', sans-serif;
     font-size: 68px;
@@ -33,7 +32,7 @@ h1{
 
 h2{
     color: partial.$secondary-color;
-    font-family: 'Cutive Mono', sans-serif;
+    font-family: 'Slabo 13px', sans-serif;
     font-size: 56px;
 }
 
@@ -46,7 +45,7 @@ h3{
 
 p{
     color: partial.$color;
-    font-family: 'Slabo 13px', serif;
+    font-family: 'cutive', serif;
 }
 
 // Header
@@ -117,6 +116,7 @@ nav{
 
     p{
         color: black;
+        font-family: 'cutive mono', serif;
         font-size: 24px;
         line-height: 2;
         margin-left: 8rem;
@@ -161,7 +161,7 @@ nav{
     padding: 2rem 8rem;
 
     p{
-        font-family: 'Slabo 13px', sans-serif;
+        font-family: 'cutive mono', serif;
         font-size: 24px;
         line-height: 2;
     }
@@ -201,6 +201,8 @@ nav{
 
     p{
         font-size: 24px;
+        font-family: 'cutive mono', serif;
+        line-height: 2;
     }
 
     img{
@@ -212,9 +214,6 @@ nav{
         max-width: 48rem;
     }
 
-    p{
-        line-height: 2;
-    }
 
     a{
         background-color: partial.$cta-bg;
@@ -265,6 +264,7 @@ nav{
 
     p{
         color: partial.$secondary-p;
+        font-family: 'cutive mono', serif;
         font-size: 24px;
         line-height: 2;
     }
@@ -319,5 +319,38 @@ footer {
 // Mobilversionen
 
 @media (max-width: 768px) {
+
+    .forside{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
     
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teaser-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #project-gallery{
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
 }
