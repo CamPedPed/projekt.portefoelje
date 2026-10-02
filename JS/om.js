@@ -6,8 +6,9 @@ import { profileData } from "./data/data.js";
 const profile = new Profile(
     profileData.name,
     profileData.introduction,
+    profileData.img,
     profileData.link,
-    profileData.img
+    profileData.url
 );
 
 const portfolio = new PortfolioPage(profile);

@@ -21,6 +21,7 @@ button{
 
 h1{
     color: partial.$primary-color;
+    background-color: partial.$p-bg-color;
     display: flex;
     font-family: 'Bitcount', sans-serif;
     font-size: 68px;
@@ -198,7 +199,6 @@ nav{
 
 
 // OM-SIDE
-
 .intro{
     background-color: partial.$primary-color;
     display: flex;
